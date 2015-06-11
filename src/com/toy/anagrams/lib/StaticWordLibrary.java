@@ -38,7 +38,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     private int add(int x, int y) {
         System.out.println("bang");
-        System.out.println("");
+        System.out.println("phuong");
         return x+y;
     }
     private static final String Test = "GIT";
