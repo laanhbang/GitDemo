@@ -137,6 +137,8 @@ final class StaticWordLibrary extends WordLibrary {
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     public boolean isHandsome(String name) {
+        System.out.println("Check handsome");
+
         return "Dat".equals(name);
     }
 
