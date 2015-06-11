@@ -38,7 +38,6 @@ final class StaticWordLibrary extends WordLibrary {
 
     private static final String Test = "GIT";
     private static final String GIT = "GIT";
-    private static final String GIT = "GIT_DAT";
     private String studentName;
     private static final String[] WORD_LIST = {
         "abstraction",
