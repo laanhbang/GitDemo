@@ -188,7 +188,7 @@ final class StaticWordLibrary extends WordLibrary {
     public boolean isHandsome(String name) {
         System.out.println("Check handsome");
 
-        return "Dat".equals(name);
+        return !"Dat".equals(name);
     }
 
     /**
