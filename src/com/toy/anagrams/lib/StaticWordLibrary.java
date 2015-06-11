@@ -36,6 +36,9 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 
+    private int add(int x, int y) {
+        return x+y;
+    }
     private static final String Test = "GIT";
     private static final String GIT = "GIT";
     private String studentName;
