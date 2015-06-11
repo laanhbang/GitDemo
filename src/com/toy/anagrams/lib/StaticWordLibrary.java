@@ -135,6 +135,10 @@ final class StaticWordLibrary extends WordLibrary {
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
+    public boolean isHandsome(String name) {
+        return "Dat".equals(name);
+    }
+
     /**
      * Singleton class.
      */
