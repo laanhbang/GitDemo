@@ -37,10 +37,7 @@ package com.toy.anagrams.lib;
 final class StaticWordLibrary extends WordLibrary {
 
     private int add(int x, int y) {
-        System.out.println("bang");
-        System.out.println("phuong_1");
-        System.out.println("dat");
-        System.out.println("phuong3");
+       
         return x+y;
     }
     private static final String Test = "GIT";
